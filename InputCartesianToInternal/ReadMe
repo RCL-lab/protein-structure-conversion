@@ -1,0 +1,14 @@
+This folder contains one input (lysozym protein), for Cartesian to internal coordinates conversian. 
+The input set can be use both for C (CPU) and CUDA (GPU) versions. 
+The input sets are already pre-processed with VMD and ready to use in the programs.
+
+- Lysozym: one example of input for Cartesian coordinates to internal, from Lysozym protein,
+  
+  This input has has a total of 17,566 atoms (includingwater) and includes 2,210  time frame. this has been extracted from PSF and .dcd files
+  that shows the Cartesian coordinates for different time frames.
+  
+  The folder consisted of 
+  bond : This files shows the list of atoms that have make bond together.
+  theta: This files shows the list of atoms that have make an angle together.
+  propers: This files shows the list of atoms that have make proper dihedral together.
+  impropers: This files shows the list of atoms that have make improper dihedral together.
