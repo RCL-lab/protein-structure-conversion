@@ -1,0 +1,33 @@
+PSF
+
+       2 !NTITLE
+ REMARKS original generated structure x-plor psf file
+ REMARKS topology C:/Users/Mah.b324/Documents/VMD/top_all22_prot_cmap.inp 
+
+       0 !NATOM
+
+       0 !NBOND: bonds
+
+
+       0 !NTHETA: angles
+
+
+       0 !NPHI: dihedrals
+
+
+       0 !NIMPHI: impropers
+
+
+       0 !NDON: donors
+
+
+       0 !NACC: acceptors
+
+
+       0 !NNB
+
+
+
+       1       0 !NGRP
+       0       0       0
+
