@@ -5,10 +5,10 @@ VMD-Preprocess :
 	
 	
 	(I)   Extract-Backbone-InternalCoordinate.tcl:
-		  The module extract the backbone internal coorsinates.
+	      The module extract the backbone internal coorsinates.
 		  
-    (II)  Extract-Sidechain-internalCordinate.tcl:
-          The module extract the side chain internal coorsinates. 
+        (II)  Extract-Sidechain-internalCordinate.tcl:
+              The module extract the side chain internal coorsinates. 
     
 	The output files of (I), (II) are input files for Internal to Cartesian coordinateconversion.
 
@@ -19,15 +19,13 @@ VMD-Preprocess :
 	All three (I), (II) and (III) first need to load the related protein.pdb file on VMD  then Source file.tcl
 
 	
-    (IV) pdb2psf.tcl
-	      This module is needed to conver a protein pdb file to psf. The psf(protein structure file) is needed when we convert the Cartesian coordinate to 
-		  Internal coordinate, then we need to know which atoms struct bonds and angles. 
+        (IV) pdb2psf.tcl
+	     This module is needed to conver a protein pdb file to psf. The psf(protein structure file) is needed when we convert the      		Cartesian coordinate to Internal coordinate, then we need to know which atoms struct bonds and angles. 
 		  
 		  
-	(V)SplitChain.tcl
-	     This module might not be needed for all proteins, but if a protein consists of multiple chain, first we need to break it into multiple pdb files.
+	(V) SplitChain.tcl
+	   This module might not be needed for all proteins, but if a protein consists of multiple chain, first we need to break it into 	    multiple pdb files.
 		 
 		 
-    (VI)OneChainMultipleFilesPDBtoPSF.tcl
-	     This module is needed when we split the chains of a protein and one chain gets fragmented pdb files (generates multiple pdb files for one chain)
-		 In this file we convert it into one pdb and psf file.  
+        (VI) OneChainMultipleFilesPDBtoPSF.tcl
+	     This module is needed when we split the chains of a protein and one chain gets fragmented pdb files (generates multiple pdb   		files for one chain) In this file we convert it into one pdb and psf file.  
