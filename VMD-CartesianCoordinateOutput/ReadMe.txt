@@ -9,8 +9,8 @@ VMD-CartesianCoordinateOutput :
 	      side_xyz.txt
 		  backbone_xyz.txt
 		  
-    (II)  5RSA: RIBONUCLEASE-A, https://www.rcsb.org/structure/5RSA
-		  both of the below files are based on the measuring order in VMD-preprocessing/Extract-Cartesian-Backbone&SideChain.tcl files
+        (II)  5RSA: RIBONUCLEASE-A, https://www.rcsb.org/structure/5RSA
+              both of the below files are based on the measuring order in VMD-preprocessing/Extract-Cartesian-Backbone&SideChain.tcl files
 		  side_xyz.txt
 		  backbone_xyz.txt
     
