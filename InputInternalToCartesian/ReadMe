@@ -1,0 +1,38 @@
+This folder contains two inputs (two different proteins), for internal to Cartesian coordinates conversian. 
+Each of these input set can be use both for C (CPU) and CUDA (GPU) versions. 
+These input sets are already pre-processed with VMD and ready to use in the programs.
+
+- 1TIT: one example of input for internal to cartesian coordinates, from TITIN protein,
+  pdb file is available in http://www.rcsb.org/structure/1TIT, and PDB_Example folder. 
+  
+  1TIT folder contains: 
+  
+  B_1TIT_noindex : all the protein backbone bond distances 
+  A_1TIT_noindex : all the protein backbone angles
+  DIHD_1TIT_noindex :all the protein backbone dihedrals
+  
+  BOND_SIDE : all the protein side chain  bond distances
+  ANGLE_SIDE : all the protein side chain angles
+  DIHD_SIDE : all the protein side chain dihedral
+  imprANGLE_SIDE : all the protein side chain improper dihedral
+  
+  resname : all the protein residue name
+  
+- 5RSA: one example of input for internal to cartesian coordinates, from 5RSA protein,
+  pdb file is available in  https://www.rcsb.org/structure/5RSA, and PDB_Exam
+  5RSA folder contains: 
+  
+  B_5rsa_noindex : all the protein backbone bond distances 
+  A_5rsa_noindex : all the protein backbone angles
+  DIHD_5rsa_noindex :all the protein backbone dihedrals
+  
+  BOND_SIDE : all the protein side chain  bond distances 
+  ANGLE_SIDE : all the protein side chain angles
+  DIHD_SIDE : all the protein side chain dihedral
+  imprANGLE_SIDE : all the protein side chain improper dihedral
+  
+  resname : all the protein residue name
+
+
+
+*Both of these two input series are the out put of VMD_preproccess/Extract-Backbone-Internalcordinate.tcl and Extract-Sidechain-internalCoordinate.tcl
