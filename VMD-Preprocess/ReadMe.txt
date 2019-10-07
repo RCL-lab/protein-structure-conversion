@@ -1,6 +1,6 @@
 VMD-Preprocess : 
-	All the preprocess with VMD Software that is needed during the protein conversion is included in this folder.
-	All These files are runnable in VMD tk console, each files provided with header comments on how to run them. 
+	All the preprocesses with VMD Software that are needed during the protein conversion are included in this folder.
+	All These files are runnable in VMD tk console, each file are provided with header and comments on how to run them. 
 	Generally you need to run the them in console: Source file.tcl
 	
 	
