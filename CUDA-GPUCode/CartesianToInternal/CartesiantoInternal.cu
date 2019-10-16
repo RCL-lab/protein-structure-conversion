@@ -1,3 +1,38 @@
+/*####################################################################################################
+## FileName:    CartesiantoInternal.cu
+## Description: The module is the GPU implementaion, read the Cartesian coordinate of a protein and the list of atoms  
+##				that make bond, angle and dihedral together, and parallely convert it to Internal coordinate by using formula.
+##				The input files of this program is trajectory.txt, bond.txt, angle.txt, improper.txt, proper.txt
+##				The output is 4 different output file for each internal Cartesian coordinate.
+##			    To run this file just need to compile it by nvcc and then run it:  
+## 				nvcc CartesiantoInternal.cu -o CartesiantoInternal_out
+##				./CartesiantoInternal_out
+##				
+## Author: Mahsa Bayati
+##
+## MIT License
+## Copyright (c) 2019 RCL-lab
+## Permission is hereby granted, free of charge, to any person obtaining a copy
+## of this software and associated documentation files (the "Software"), to deal
+## in the Software without restriction, including without limitation the rights
+## to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+## copies of the Software, and to permit persons to whom the Software is
+## furnished to do so, subject to the following conditions:
+## The above copyright notice and this permission notice shall be included in all
+## copies or substantial portions of the Software.
+## THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+## IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+## FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+## AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+## LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+## OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+## SOFTWARE.
+####################################################################################################
+*/
+
+
+
+
 #include "headerReadTrajectory.h"
 #include <cuda.h>
 #define HANDLE_ERROR( err ) (HandleError( err, __FILE__, __LINE__ ))

@@ -5,6 +5,9 @@
 ##				DIHD_SIDE,resname. the output can be two raw data file, backboneXYZ, sideXYZ. 
 ##				by including ItoC.h header file, we can call writeToPDB.cpp and get the pdb like output. (you only need to uncomment that part)
 ##				The output is simplepdb.txt.
+##			    To run this file just need to compile it by g++ and then run it:  
+## 				g++ InternalToCartesian_CPU.cpp -o InternalToCatesian_out
+##				./InternalToCatesian_out
 ## 				
 ## Author: Mahsa Bayati
 ##

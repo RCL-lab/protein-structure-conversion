@@ -4,6 +4,9 @@
 ##				serially convert it to Internal coordinate by using formula.
 ##				The input files of this program is trajectory.txt, bond.txt, angle.txt, improper.txt, proper.txt
 ##				The output is 4 different output file for each internal Cartesian coordinate.
+##			    To run this file just need to compile it by g++ and then run it:  
+## 				g++ CartesiantoInternal_CPU.cpp -o CartesiantoInternal_out
+##				./CartesiantoInternal_out
 ## 				
 ## Author: Mahsa Bayati
 ##
